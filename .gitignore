@@ -1,1 +1,25 @@
-secrets.toml
+# Ignorar el archivo de secretos
+secrets/
+
+# Ignorar certificados de Let's Encrypt
+letsencrypt/
+
+# Ignorar imágenes generadas y otros archivos temporales
+images/
+
+# Ignorar archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar la configuración de entornos virtuales locales
+venv/
+env/
+
+# Ignorar archivos de configuración de Docker temporales o logs
+*.log
+docker-compose.override.yml
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
